@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid; 
+    /* configura como grid */
+    grid-template-columns: 400px 700px 400px; 
+    /* repete 3 colunas do msm tamanho */
+    gap: 10px;
+    /* gap é o espaçamento entre itens */
+    grid-template-rows: 100px 200px;
+}
+
+.item {
+    background-color: rgb(198, 132, 248);
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgb(66, 0, 107);
+}
